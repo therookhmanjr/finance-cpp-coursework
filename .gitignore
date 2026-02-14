@@ -5,7 +5,7 @@
 //  Created by Maksim Rakhmanko on 14.02.26.
 //
 
-build/
-DerivedData/
-xcuserdata/
 .DS_Store
+xcuserdata/
+DerivedData/
+build/
