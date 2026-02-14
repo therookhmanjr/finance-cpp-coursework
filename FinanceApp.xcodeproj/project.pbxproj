@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B57A511B2F40E6A700CDC56B /* FinanceApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinanceApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57A511B2F40E6A700CDC56B /* FinanceApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = FinanceApp; path = "/Users/maksim/Desktop/БНТУ/ОАиП/Курсовой проект/FinanceApp/build/Debug/FinanceApp"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				B57A511D2F40E6A700CDC56B /* FinanceApp */,
-				B57A511C2F40E6A700CDC56B /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B57A511C2F40E6A700CDC56B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B57A511B2F40E6A700CDC56B /* FinanceApp */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +84,7 @@
 				TargetAttributes = {
 					B57A511A2F40E6A700CDC56B = {
 						CreatedOnToolsVersion = 26.0.1;
+						LastSwiftMigration = 2600;
 					};
 				};
 			};
@@ -106,7 +98,7 @@
 			mainGroup = B57A51122F40E6A700CDC56B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B57A511C2F40E6A700CDC56B /* Products */;
+			productRefGroup = B57A51122F40E6A700CDC56B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -246,20 +238,27 @@
 		B57A51232F40E6A700CDC56B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59QN3Y984N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FinanceApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		B57A51242F40E6A700CDC56B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59QN3Y984N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FinanceApp-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
