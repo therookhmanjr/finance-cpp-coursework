@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B57A511B2F40E6A700CDC56B /* FinanceApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = FinanceApp; path = "/Users/maksim/Desktop/БНТУ/ОАиП/Курсовой проект/FinanceApp/build/Debug/FinanceApp"; sourceTree = "<absolute>"; };
+		B5B798FB2F40EE8C0003540A /* FinanceApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = FinanceApp; path = "/Users/maksim/Desktop/БНТУ/ОАиП/Курсовой проект/FinanceApp/build/Debug/FinanceApp"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -70,7 +70,7 @@
 			packageProductDependencies = (
 			);
 			productName = FinanceApp;
-			productReference = B57A511B2F40E6A700CDC56B /* FinanceApp */;
+			productReference = B5B798FB2F40EE8C0003540A /* FinanceApp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
